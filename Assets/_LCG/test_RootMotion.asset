@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ea465ce18b52c43ac4fb0aadcebada, type: 3}
+  m_Name: test_RootMotion
+  m_EditorClassIdentifier: 
+  m_UnityInsID: 27206
+  m_PlayableInsID: 25092
+  m_Layers:
+  - m_Name: New Layer 1
+    m_DefaultSpeed: 1
+    m_DefaultWeight: 1
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_SyncedLayerIndex: -1
+    m_DefaultStateName: Idle
+    m_AvatarMask: {fileID: 0}
+    m_BlendingType: 0
+    m_States:
+    - m_Position: {x: 390, y: 80}
+      m_Name: Idle
+      m_Tag: 
+      m_Transitions: []
+      m_HashID: 943115392
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: -1807718146014606409, guid: af3e905e4e551cf40b538a61e8ed0308,
+          type: 3}
+    - m_Position: {x: 400, y: 310}
+      m_Name: Run
+      m_Tag: 
+      m_Transitions: []
+      m_HashID: -1742332672
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 4406104350984959394, guid: 621449d9b13c9b74c9991860158c4f1e,
+          type: 3}
+    m_Groups: []
+  - m_Name: New Layer 0
+    m_DefaultSpeed: 1
+    m_DefaultWeight: 0
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_SyncedLayerIndex: -1
+    m_DefaultStateName: 
+    m_AvatarMask: {fileID: 0}
+    m_BlendingType: 0
+    m_States: []
+    m_Groups: []
+  - m_Name: New Layer
+    m_DefaultSpeed: 1
+    m_DefaultWeight: 0.7
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_SyncedLayerIndex: -1
+    m_DefaultStateName: 
+    m_AvatarMask: {fileID: 0}
+    m_BlendingType: 0
+    m_States: []
+    m_Groups: []
+  m_Parameters:
+  - m_Name: New Float
+    m_Type: 1
+    m_DefaultInt: 0
+    m_DefaultFloat: 0
+    m_DefaultBool: 0
+  - m_Name: New Int
+    m_Type: 3
+    m_DefaultInt: 0
+    m_DefaultFloat: 0
+    m_DefaultBool: 0
+  - m_Name: New Bool
+    m_Type: 4
+    m_DefaultInt: 0
+    m_DefaultFloat: 0
+    m_DefaultBool: 1
+  - m_Name: New Trigger
+    m_Type: 9
+    m_DefaultInt: 0
+    m_DefaultFloat: 0
+    m_DefaultBool: 1

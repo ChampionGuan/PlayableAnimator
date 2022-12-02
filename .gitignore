@@ -1,0 +1,12 @@
+.idea/
+Library/
+Logs/
+obj/
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+EditorPlayableAnimator.csproj
+playableAnimator_backup.rar
+playableAnimator.sln
+UserSettings/EditorUserSettings.asset
+PlayableAnimator.csproj
+NewAssembly.csproj

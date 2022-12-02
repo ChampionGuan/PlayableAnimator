@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ea465ce18b52c43ac4fb0aadcebada, type: 3}
+  m_Name: TestController
+  m_EditorClassIdentifier: 
+  m_UnityInsID: 13540
+  m_PlayableInsID: 13532
+  m_Layers:
+  - m_Name: Base Layer
+    m_DefaultSpeed: 1
+    m_DefaultWeight: 1
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_SyncedLayerIndex: -1
+    m_DefaultStateName: New State
+    m_AvatarMask: {fileID: 0}
+    m_BlendingType: 0
+    m_States:
+    - m_Name: TestScale
+      m_Tag: 
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: Test
+      m_SpeedParameterActive: 1
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 7400000, guid: f404f069c84516748a651212bd096646, type: 2}
+      m_Transitions: []
+    - m_Name: Blend Tree
+      m_Tag: 
+      m_DefaultSpeed: 2
+      m_SpeedParameterName: Test
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 1
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 1
+        m_BlendParameterName: Blend
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 1
+        m_ChildMotions:
+        - m_Clip: {fileID: 7400000, guid: f89922683fc92b148a94cf5674fa688c, type: 2}
+          m_Threshold: 0
+          m_TimeScale: 0
+          m_CycleOffset: 0
+          m_DirectBlendParameter: 
+          m_Mirror: 0
+        - m_Clip: {fileID: 7400000, guid: 415a210c9b751f747944a58043750fcf, type: 2}
+          m_Threshold: 0.5
+          m_TimeScale: 0
+          m_CycleOffset: 0
+          m_DirectBlendParameter: 
+          m_Mirror: 0
+        - m_Clip: {fileID: 7400000, guid: f404f069c84516748a651212bd096646, type: 2}
+          m_Threshold: 1
+          m_TimeScale: 0
+          m_CycleOffset: 0
+          m_DirectBlendParameter: 
+          m_Mirror: 0
+      m_ClipMotion:
+        m_Clip: {fileID: 0}
+      m_Transitions: []
+    - m_Name: TestPos
+      m_Tag: 
+      m_DefaultSpeed: 3
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 7400000, guid: f89922683fc92b148a94cf5674fa688c, type: 2}
+      m_Transitions: []
+    - m_Name: New State
+      m_Tag: 
+      m_DefaultSpeed: 10
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 7400000, guid: f89922683fc92b148a94cf5674fa688c, type: 2}
+      m_Transitions: []
+    - m_Name: TestRot
+      m_Tag: 
+      m_DefaultSpeed: 3
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 7400000, guid: 415a210c9b751f747944a58043750fcf, type: 2}
+      m_Transitions: []
+  m_Parameters:
+  - m_Name: Blend
+    m_Type: 1
+    m_DefaultInt: 0
+    m_DefaultFloat: 0.5
+    m_DefaultBool: 0
+  - m_Name: TTTT
+    m_Type: 9
+    m_DefaultInt: 0
+    m_DefaultFloat: 0
+    m_DefaultBool: 0
+  - m_Name: Int1
+    m_Type: 3
+    m_DefaultInt: 0
+    m_DefaultFloat: 0
+    m_DefaultBool: 0
+  - m_Name: Test
+    m_Type: 1
+    m_DefaultInt: 0
+    m_DefaultFloat: 1
+    m_DefaultBool: 0

@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: 92b148cf07a649344b3ee4c1b91a4421
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -5686046195419847464
+    second: R00_PL__RunStart
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: RootMotionRecorder
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0
+    animationPositionError: 0
+    animationScaleError: 0
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RunStart
+      takeName: R00_PL__RunStart
+      internalID: -5686046195419847464
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+      aclMaskType: 1
+      aclMaskSource: {fileID: 7589479785212039786, guid: 54f06dd9d2256ec4085689d257848dd7,
+        type: 2}
+      boneComressSettings: []
+      aclTransformMask:
+      - path: 
+        weight: {x: 0.12345, y: 0.0001, z: 0}
+      - path: Roots
+        weight: {x: 0.12345, y: 0.0001, z: 0}
+      - path: Roots/Root_M
+        weight: {x: 0.15080674, y: 0.0001, z: 0.44484857}
+      - path: Roots/Root_M/Hip_L
+        weight: {x: 0.15529384, y: 0.0001, z: 0.47697482}
+      - path: Roots/Root_M/Hip_L/HipPart1_L
+        weight: {x: 0.164638, y: 0.0001, z: 0.5424892}
+      - path: Roots/Root_M/Hip_L/HipPart1_L/HipPart2_L
+        weight: {x: 0.12252918, y: 0.0001, z: 0.60800356}
+      - path: Roots/Root_M/Hip_L/HipPart1_L/HipPart2_L/Knee_L
+        weight: {x: 0.13312224, y: 0.0001, z: 0.6735179}
+      - path: Roots/Root_M/Hip_L/HipPart1_L/HipPart2_L/Knee_L/KneePart1_L
+        weight: {x: 0.1641003, y: 0.0001, z: 0.735348}
+      - path: Roots/Root_M/Hip_L/HipPart1_L/HipPart2_L/Knee_L/KneePart1_L/KneePart2_L
+        weight: {x: 0.13902725, y: 0.0001, z: 0.7971781}
+      - path: Roots/Root_M/Hip_L/HipPart1_L/HipPart2_L/Knee_L/KneePart1_L/KneePart2_L/Ankle_L
+        weight: {x: 0.16654891, y: 0.0001, z: 0.8590082}
+      - path: Roots/Root_M/Hip_L/HipPart1_L/HipPart2_L/Knee_L/KneePart1_L/KneePart2_L/Ankle_L/Toes_L
+        weight: {x: 0.08617726, y: 0.0001, z: 0.92025065}
+      - path: Roots/Root_M/Hip_L/HipPart1_L/HipPart2_L/Knee_L/KneePart1_L/KneePart2_L/Ankle_L/Toes_L/ToesEnd_L
+        weight: {x: 0.08617726, y: 0.0001, z: 0.9598253}
+      - path: Roots/Root_M/Hip_R
+        weight: {x: 0.1550865, y: 0.0001, z: 0.47697482}
+      - path: Roots/Root_M/Hip_R/HipPart1_R
+        weight: {x: 0.17801334, y: 0.0001, z: 0.5424892}
+      - path: Roots/Root_M/Hip_R/HipPart1_R/HipPart2_R
+        weight: {x: 0.12252923, y: 0.0001, z: 0.60800356}
+      - path: Roots/Root_M/Hip_R/HipPart1_R/HipPart2_R/Knee_R
+        weight: {x: 0.13312227, y: 0.0001, z: 0.6735179}
+      - path: Roots/Root_M/Hip_R/HipPart1_R/HipPart2_R/Knee_R/KneePart1_R
+        weight: {x: 0.16410029, y: 0.0001, z: 0.735348}
+      - path: Roots/Root_M/Hip_R/HipPart1_R/HipPart2_R/Knee_R/KneePart1_R/KneePart2_R
+        weight: {x: 0.13902733, y: 0.0001, z: 0.7971781}
+      - path: Roots/Root_M/Hip_R/HipPart1_R/HipPart2_R/Knee_R/KneePart1_R/KneePart2_R/Ankle_R
+        weight: {x: 0.16654888, y: 0.0001, z: 0.8590082}
+      - path: Roots/Root_M/Hip_R/HipPart1_R/HipPart2_R/Knee_R/KneePart1_R/KneePart2_R/Ankle_R/Toes_R
+        weight: {x: 0.086177275, y: 0.0001, z: 0.92025065}
+      - path: Roots/Root_M/Hip_R/HipPart1_R/HipPart2_R/Knee_R/KneePart1_R/KneePart2_R/Ankle_R/Toes_R/ToesEnd_R
+        weight: {x: 0.086177275, y: 0.0001, z: 0.9598253}
+      - path: Roots/Root_M/Spine1_M
+        weight: {x: 0.14057286, y: 0.0001, z: 0.4778198}
+      - path: Roots/Root_M/Spine1_M/Spine2_M
+        weight: {x: 0.15063444, y: 0.0001, z: 0.50828356}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M
+        weight: {x: 0.13238436, y: 0.0001, z: 0.54316705}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M
+        weight: {x: 0.19782905, y: 0.0001, z: 0.5847817}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M
+        weight: {x: 0.07371666, y: 0.0001, z: 0.663248}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M
+        weight: {x: 0.05694431, y: 0.0001, z: 0.68981296}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M
+        weight: {x: 0.16453235, y: 0.0001, z: 0.716378}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare
+        weight: {x: 0.16453235, y: 0.0001, z: 0.716378}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Eye_L_driver
+        weight: {x: 0.16453235, y: 0.0001, z: 0.75440264}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Eye_L_driver/Eye_L
+        weight: {x: 0.015558438, y: 0.0001, z: 0.75440264}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Eye_L_driver/Eye_L/EyeEnd_L
+        weight: {x: 0.015558438, y: 0.0001, z: 0.7558047}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Eye_R_driver
+        weight: {x: 0.16453235, y: 0.0001, z: 0.7544029}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Eye_R_driver/Eye_R
+        weight: {x: 0.015558294, y: 0.0001, z: 0.7544029}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Eye_R_driver/Eye_R/EyeEnd_R
+        weight: {x: 0.015558294, y: 0.0001, z: 0.75580496}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_0
+        weight: {x: 0.023414161, y: 0.0001, z: 0.7762956}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_1
+        weight: {x: 0.046111926, y: 0.0001, z: 0.7754437}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_2
+        weight: {x: 0.00414782, y: 0.0001, z: 0.7697684}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_3
+        weight: {x: 0.011041372, y: 0.0001, z: 0.7704179}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_4
+        weight: {x: 0.009870325, y: 0.0001, z: 0.77045435}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_5
+        weight: {x: 0.0076729134, y: 0.0001, z: 0.769483}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_6
+        weight: {x: 0.01451939, y: 0.0001, z: 0.7658867}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_7
+        weight: {x: 0.017812608, y: 0.0001, z: 0.7610896}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_8
+        weight: {x: 0.00800009, y: 0.0001, z: 0.7654775}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_9
+        weight: {x: 0.0055216257, y: 0.0001, z: 0.7667953}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_10
+        weight: {x: 0.007828076, y: 0.0001, z: 0.7673758}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_11
+        weight: {x: 0.00522505, y: 0.0001, z: 0.76696634}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_12
+        weight: {x: 0.009533568, y: 0.0001, z: 0.764014}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_13
+        weight: {x: 0.007950686, y: 0.0001, z: 0.76077306}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_14
+        weight: {x: 0.00552118, y: 0.0001, z: 0.76065254}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_15
+        weight: {x: 0.0058575114, y: 0.0001, z: 0.758326}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_16
+        weight: {x: 0.009875688, y: 0.0001, z: 0.7611558}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_17
+        weight: {x: 0.010593184, y: 0.0001, z: 0.7621786}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_18
+        weight: {x: 0.010007711, y: 0.0001, z: 0.76218146}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_19
+        weight: {x: 0.0066116205, y: 0.0001, z: 0.76021594}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_20
+        weight: {x: 0.0055118226, y: 0.0001, z: 0.7600055}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_21
+        weight: {x: 0.0054278215, y: 0.0001, z: 0.7596121}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_22
+        weight: {x: 0.0028282113, y: 0.0001, z: 0.75819105}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_23
+        weight: {x: 0.008102777, y: 0.0001, z: 0.7596414}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_24
+        weight: {x: 0.007195591, y: 0.0001, z: 0.76140827}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_25
+        weight: {x: 0.005212436, y: 0.0001, z: 0.75830644}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_26
+        weight: {x: 0.008229593, y: 0.0001, z: 0.7603481}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_27
+        weight: {x: 0.009485317, y: 0.0001, z: 0.7575375}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_28
+        weight: {x: 0.014580686, y: 0.0001, z: 0.7575813}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_29
+        weight: {x: 0.02085859, y: 0.0001, z: 0.7570484}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_30
+        weight: {x: 0.015116719, y: 0.0001, z: 0.7575146}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_31
+        weight: {x: 0.00901892, y: 0.0001, z: 0.75516325}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_32
+        weight: {x: 0.012959946, y: 0.0001, z: 0.7523293}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_33
+        weight: {x: 0.014407215, y: 0.0001, z: 0.7524532}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_34
+        weight: {x: 0.008367226, y: 0.0001, z: 0.7570571}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_35
+        weight: {x: 0.017473776, y: 0.0001, z: 0.75476223}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_36
+        weight: {x: 0.0121332165, y: 0.0001, z: 0.75294346}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_37
+        weight: {x: 0.011522289, y: 0.0001, z: 0.7529039}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_38
+        weight: {x: 0.019986851, y: 0.0001, z: 0.74993795}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_39
+        weight: {x: 0.02420378, y: 0.0001, z: 0.74876994}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_40
+        weight: {x: 0.017002136, y: 0.0001, z: 0.74298966}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_41
+        weight: {x: 0.021533148, y: 0.0001, z: 0.74682665}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_42
+        weight: {x: 0.010297937, y: 0.0001, z: 0.76738304}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_43
+        weight: {x: 0.0031908627, y: 0.0001, z: 0.7604272}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_44
+        weight: {x: 0.006179115, y: 0.0001, z: 0.7590225}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_45
+        weight: {x: 0.007899424, y: 0.0001, z: 0.7578928}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_46
+        weight: {x: 0.0050836825, y: 0.0001, z: 0.75652695}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_47
+        weight: {x: 0.0029681597, y: 0.0001, z: 0.75566155}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_48
+        weight: {x: 0.0033538667, y: 0.0001, z: 0.7592777}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_49
+        weight: {x: 0.0045361705, y: 0.0001, z: 0.75822914}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_50
+        weight: {x: 0.008054796, y: 0.0001, z: 0.7564791}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_51
+        weight: {x: 0.009025975, y: 0.0001, z: 0.75722885}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_52
+        weight: {x: 0.0071926103, y: 0.0001, z: 0.75511795}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_53
+        weight: {x: 0.004321496, y: 0.0001, z: 0.7575627}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_54
+        weight: {x: 0.0108614275, y: 0.0001, z: 0.75039816}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_55
+        weight: {x: 0.010271667, y: 0.0001, z: 0.7503591}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_56
+        weight: {x: 0.01151625, y: 0.0001, z: 0.75658274}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_57
+        weight: {x: 0.0037793566, y: 0.0001, z: 0.75612074}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_58
+        weight: {x: 0.0057954844, y: 0.0001, z: 0.7555211}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_59
+        weight: {x: 0.0030892945, y: 0.0001, z: 0.75471586}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_60
+        weight: {x: 0.00335951, y: 0.0001, z: 0.75387}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_61
+        weight: {x: 0.004369434, y: 0.0001, z: 0.75495964}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_62
+        weight: {x: 0.009850037, y: 0.0001, z: 0.75607}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_63
+        weight: {x: 0.009625356, y: 0.0001, z: 0.7568887}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_65
+        weight: {x: 0.005146769, y: 0.0001, z: 0.7584831}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_66
+        weight: {x: 0.008481049, y: 0.0001, z: 0.7604797}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_67
+        weight: {x: 0.010378468, y: 0.0001, z: 0.7620889}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_68
+        weight: {x: 0.006472002, y: 0.0001, z: 0.76560396}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_69
+        weight: {x: 0.013384896, y: 0.0001, z: 0.7374986}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_70
+        weight: {x: 0.000000009313226, y: 0.0001, z: 0.7433814}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_71
+        weight: {x: 0.16453235, y: 0.0001, z: 0.7409371}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_76
+        weight: {x: 0.0153235085, y: 0.0001, z: 0.7407022}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_77
+        weight: {x: 0.006361106, y: 0.0001, z: 0.75238013}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_78
+        weight: {x: 0.00000024851485, y: 0.0001, z: 0.7610054}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_79
+        weight: {x: 0.006697269, y: 0.0001, z: 0.7623171}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_80
+        weight: {x: 0.007276581, y: 0.0001, z: 0.7595897}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_81
+        weight: {x: 0.0038317218, y: 0.0001, z: 0.7543171}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_82
+        weight: {x: 0.004774661, y: 0.0001, z: 0.75574476}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_83
+        weight: {x: 0.0044217776, y: 0.0001, z: 0.76010764}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_84
+        weight: {x: 0.004923003, y: 0.0001, z: 0.76208997}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_85
+        weight: {x: 0.006230196, y: 0.0001, z: 0.76414037}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_86
+        weight: {x: 0.0070608584, y: 0.0001, z: 0.7642442}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_87
+        weight: {x: 0.0064316536, y: 0.0001, z: 0.76339805}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_88
+        weight: {x: 0.0040968964, y: 0.0001, z: 0.76065993}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_89
+        weight: {x: 0.004262303, y: 0.0001, z: 0.75862014}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_90
+        weight: {x: 0.005412704, y: 0.0001, z: 0.75791}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_91
+        weight: {x: 0.0038646979, y: 0.0001, z: 0.7585402}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_92
+        weight: {x: 0.0034517837, y: 0.0001, z: 0.7587728}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_93
+        weight: {x: 0.01217951, y: 0.0001, z: 0.758904}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_94
+        weight: {x: 0.009521767, y: 0.0001, z: 0.7573998}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_95
+        weight: {x: 0.00718911, y: 0.0001, z: 0.7546208}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_96
+        weight: {x: 0.006401894, y: 0.0001, z: 0.75629324}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_97
+        weight: {x: 0.008255138, y: 0.0001, z: 0.7540755}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_98
+        weight: {x: 0.008156373, y: 0.0001, z: 0.74918294}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_99
+        weight: {x: 0.0055933455, y: 0.0001, z: 0.7598656}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_100
+        weight: {x: 0.008276079, y: 0.0001, z: 0.7607257}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_101
+        weight: {x: 0.005389488, y: 0.0001, z: 0.75791425}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_102
+        weight: {x: 0.007085471, y: 0.0001, z: 0.75921065}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_103
+        weight: {x: 0.005297799, y: 0.0001, z: 0.75910825}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_104
+        weight: {x: 0.010476063, y: 0.0001, z: 0.7588862}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_105
+        weight: {x: 0.013398311, y: 0.0001, z: 0.7681326}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_106
+        weight: {x: 0.005233147, y: 0.0001, z: 0.7658369}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_107
+        weight: {x: 0.005938295, y: 0.0001, z: 0.763343}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_108
+        weight: {x: 0.009246236, y: 0.0001, z: 0.7615932}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_109
+        weight: {x: 0.006138797, y: 0.0001, z: 0.7599461}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_110
+        weight: {x: 0.003801166, y: 0.0001, z: 0.758813}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_L_111
+        weight: {x: 0.0035664001, y: 0.0001, z: 0.7580957}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_0
+        weight: {x: 0.020767702, y: 0.0001, z: 0.7531292}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_1
+        weight: {x: 0.008958711, y: 0.0001, z: 0.7589225}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_2
+        weight: {x: 0.004312774, y: 0.0001, z: 0.75787973}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_3
+        weight: {x: 0.0041909222, y: 0.0001, z: 0.75957566}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_4
+        weight: {x: 0.045338128, y: 0.0001, z: 0.7836769}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_6
+        weight: {x: 0.014685519, y: 0.0001, z: 0.7442289}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_7
+        weight: {x: 0.013589844, y: 0.0001, z: 0.77696455}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_8
+        weight: {x: 0.0050565437, y: 0.0001, z: 0.760982}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_9
+        weight: {x: 0.0033219198, y: 0.0001, z: 0.76030636}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_10
+        weight: {x: 0.0031863705, y: 0.0001, z: 0.7627418}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_11
+        weight: {x: 0.004431102, y: 0.0001, z: 0.7656619}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_12
+        weight: {x: 0.011504356, y: 0.0001, z: 0.76697004}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_13
+        weight: {x: 0.008013274, y: 0.0001, z: 0.76407474}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_14
+        weight: {x: 0.0069334554, y: 0.0001, z: 0.7625808}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_15
+        weight: {x: 0.011107953, y: 0.0001, z: 0.7655255}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_16
+        weight: {x: 0.012871928, y: 0.0001, z: 0.76979166}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_17
+        weight: {x: 0.018367173, y: 0.0001, z: 0.756744}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_19
+        weight: {x: 0.016560258, y: 0.0001, z: 0.7584882}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_M_20
+        weight: {x: 0.0063983034, y: 0.0001, z: 0.757146}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_0
+        weight: {x: 0.015667932, y: 0.0001, z: 0.77629685}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_1
+        weight: {x: 0.03487435, y: 0.0001, z: 0.77544504}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_2
+        weight: {x: 0.0072584203, y: 0.0001, z: 0.7697694}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_3
+        weight: {x: 0.012775469, y: 0.0001, z: 0.7704187}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_4
+        weight: {x: 0.009868174, y: 0.0001, z: 0.7704554}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_5
+        weight: {x: 0.010469331, y: 0.0001, z: 0.76948446}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_6
+        weight: {x: 0.014521233, y: 0.0001, z: 0.76588595}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_7
+        weight: {x: 0.017808815, y: 0.0001, z: 0.76109105}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_8
+        weight: {x: 0.007998016, y: 0.0001, z: 0.7654766}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_9
+        weight: {x: 0.0055202646, y: 0.0001, z: 0.7667937}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_10
+        weight: {x: 0.007830903, y: 0.0001, z: 0.7673776}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_11
+        weight: {x: 0.008270359, y: 0.0001, z: 0.76696724}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_12
+        weight: {x: 0.0073935096, y: 0.0001, z: 0.7640129}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_13
+        weight: {x: 0.007950187, y: 0.0001, z: 0.76077425}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_14
+        weight: {x: 0.005525031, y: 0.0001, z: 0.7606517}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_15
+        weight: {x: 0.0058550863, y: 0.0001, z: 0.7583285}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_16
+        weight: {x: 0.009865679, y: 0.0001, z: 0.7611537}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_17
+        weight: {x: 0.010593231, y: 0.0001, z: 0.7621786}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_18
+        weight: {x: 0.010007367, y: 0.0001, z: 0.7621816}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_19
+        weight: {x: 0.0064995247, y: 0.0001, z: 0.76021624}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_20
+        weight: {x: 0.005512281, y: 0.0001, z: 0.76000535}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_21
+        weight: {x: 0.0054276693, y: 0.0001, z: 0.7596121}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_22
+        weight: {x: 0.0056669335, y: 0.0001, z: 0.75818956}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_23
+        weight: {x: 0.00806593, y: 0.0001, z: 0.7596521}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_24
+        weight: {x: 0.0068693114, y: 0.0001, z: 0.7614079}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_25
+        weight: {x: 0.005212459, y: 0.0001, z: 0.75830644}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_26
+        weight: {x: 0.00823123, y: 0.0001, z: 0.760348}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_27
+        weight: {x: 0.0065578083, y: 0.0001, z: 0.75753754}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_28
+        weight: {x: 0.014580594, y: 0.0001, z: 0.7575813}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_29
+        weight: {x: 0.013434768, y: 0.0001, z: 0.7570485}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_30
+        weight: {x: 0.0151152685, y: 0.0001, z: 0.75751436}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_31
+        weight: {x: 0.010851312, y: 0.0001, z: 0.7551632}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_32
+        weight: {x: 0.012961018, y: 0.0001, z: 0.75232947}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_33
+        weight: {x: 0.014407058, y: 0.0001, z: 0.75245327}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_34
+        weight: {x: 0.010198761, y: 0.0001, z: 0.7570571}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_35
+        weight: {x: 0.019945202, y: 0.0001, z: 0.75476164}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_36
+        weight: {x: 0.010318816, y: 0.0001, z: 0.7529422}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_37
+        weight: {x: 0.011562258, y: 0.0001, z: 0.7529043}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_38
+        weight: {x: 0.019984925, y: 0.0001, z: 0.7499375}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_39
+        weight: {x: 0.024203978, y: 0.0001, z: 0.7487698}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_40
+        weight: {x: 0.012944316, y: 0.0001, z: 0.74298966}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_41
+        weight: {x: 0.021534188, y: 0.0001, z: 0.7468267}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_42
+        weight: {x: 0.020054778, y: 0.0001, z: 0.76738465}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_43
+        weight: {x: 0.0035650583, y: 0.0001, z: 0.760427}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_44
+        weight: {x: 0.006178385, y: 0.0001, z: 0.7590224}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_45
+        weight: {x: 0.007899721, y: 0.0001, z: 0.7578927}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_46
+        weight: {x: 0.006492755, y: 0.0001, z: 0.756527}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_47
+        weight: {x: 0.0029723078, y: 0.0001, z: 0.7556625}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_48
+        weight: {x: 0.0039563114, y: 0.0001, z: 0.7592777}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_49
+        weight: {x: 0.004537774, y: 0.0001, z: 0.7582293}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_50
+        weight: {x: 0.008052409, y: 0.0001, z: 0.75647986}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_51
+        weight: {x: 0.009025965, y: 0.0001, z: 0.75722885}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_52
+        weight: {x: 0.007190471, y: 0.0001, z: 0.7551182}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_53
+        weight: {x: 0.0043204203, y: 0.0001, z: 0.75756294}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_54
+        weight: {x: 0.010860968, y: 0.0001, z: 0.75039834}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_55
+        weight: {x: 0.010271194, y: 0.0001, z: 0.7503593}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_56
+        weight: {x: 0.014512497, y: 0.0001, z: 0.7565827}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_57
+        weight: {x: 0.004200951, y: 0.0001, z: 0.75612074}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_58
+        weight: {x: 0.005789199, y: 0.0001, z: 0.75551724}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_59
+        weight: {x: 0.003677458, y: 0.0001, z: 0.7547153}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_60
+        weight: {x: 0.003359527, y: 0.0001, z: 0.75387}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_61
+        weight: {x: 0.0043694335, y: 0.0001, z: 0.75495964}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_62
+        weight: {x: 0.009850028, y: 0.0001, z: 0.75607}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_63
+        weight: {x: 0.009080423, y: 0.0001, z: 0.7568887}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_65
+        weight: {x: 0.004085003, y: 0.0001, z: 0.75848335}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_66
+        weight: {x: 0.0077389497, y: 0.0001, z: 0.7604797}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_67
+        weight: {x: 0.008618201, y: 0.0001, z: 0.76208884}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_68
+        weight: {x: 0.005924503, y: 0.0001, z: 0.76560384}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_69
+        weight: {x: 0.013387297, y: 0.0001, z: 0.7374984}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_70
+        weight: {x: 0.0000021322885, y: 0.0001, z: 0.7433819}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_71
+        weight: {x: 0.0000019889535, y: 0.0001, z: 0.7409366}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_76
+        weight: {x: 0.016352508, y: 0.0001, z: 0.74070126}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_77
+        weight: {x: 0.0063600796, y: 0.0001, z: 0.7523802}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_78
+        weight: {x: 0.0068251346, y: 0.0001, z: 0.76100546}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_79
+        weight: {x: 0.0066970317, y: 0.0001, z: 0.76231706}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_80
+        weight: {x: 0.0072771474, y: 0.0001, z: 0.75958997}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_81
+        weight: {x: 0.003844694, y: 0.0001, z: 0.7543219}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_82
+        weight: {x: 0.004291293, y: 0.0001, z: 0.7557451}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_83
+        weight: {x: 0.0044170492, y: 0.0001, z: 0.76010877}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_84
+        weight: {x: 0.004922646, y: 0.0001, z: 0.76208866}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_85
+        weight: {x: 0.006230202, y: 0.0001, z: 0.7641376}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_86
+        weight: {x: 0.007061106, y: 0.0001, z: 0.7642437}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_87
+        weight: {x: 0.006432048, y: 0.0001, z: 0.76339865}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_88
+        weight: {x: 0.0040948964, y: 0.0001, z: 0.76066095}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_89
+        weight: {x: 0.0035375908, y: 0.0001, z: 0.7586201}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_90
+        weight: {x: 0.0054118102, y: 0.0001, z: 0.7579096}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_91
+        weight: {x: 0.003866532, y: 0.0001, z: 0.7585414}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_92
+        weight: {x: 0.005350755, y: 0.0001, z: 0.7587718}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_93
+        weight: {x: 0.00796962, y: 0.0001, z: 0.758903}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_94
+        weight: {x: 0.00952205, y: 0.0001, z: 0.7574002}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_95
+        weight: {x: 0.007999066, y: 0.0001, z: 0.75462055}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_96
+        weight: {x: 0.006402845, y: 0.0001, z: 0.7562932}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_97
+        weight: {x: 0.007006939, y: 0.0001, z: 0.7540755}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_98
+        weight: {x: 0.010323561, y: 0.0001, z: 0.749183}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_99
+        weight: {x: 0.005589975, y: 0.0001, z: 0.75986594}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_100
+        weight: {x: 0.00827616, y: 0.0001, z: 0.76072556}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_101
+        weight: {x: 0.0036566881, y: 0.0001, z: 0.7579147}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_102
+        weight: {x: 0.006114059, y: 0.0001, z: 0.7592092}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_103
+        weight: {x: 0.0053024124, y: 0.0001, z: 0.75910896}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_104
+        weight: {x: 0.007339042, y: 0.0001, z: 0.75888693}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_105
+        weight: {x: 0.008099858, y: 0.0001, z: 0.768131}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_106
+        weight: {x: 0.0059629087, y: 0.0001, z: 0.7658355}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_107
+        weight: {x: 0.0038724386, y: 0.0001, z: 0.76334065}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_108
+        weight: {x: 0.009248219, y: 0.0001, z: 0.7615918}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_109
+        weight: {x: 0.006136426, y: 0.0001, z: 0.7599463}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_110
+        weight: {x: 0.0038013787, y: 0.0001, z: 0.7588132}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Head_rivet_R_111
+        weight: {x: 0.003566414, y: 0.0001, z: 0.7580952}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/TeethLower_M
+        weight: {x: 0.033184633, y: 0.0001, z: 0.7479321}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/TeethUpper_M
+        weight: {x: 0.033135343, y: 0.0001, z: 0.745942}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Tongue0_M
+        weight: {x: 0.16453235, y: 0.0001, z: 0.7332973}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Tongue0_M/Tongue1_M
+        weight: {x: 0.16453235, y: 0.0001, z: 0.7381663}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Tongue0_M/Tongue1_M/Tongue2_M
+        weight: {x: 0.16453235, y: 0.0001, z: 0.7427257}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Tongue0_M/Tongue1_M/Tongue2_M/Tongue3_M
+        weight: {x: 0.16453235, y: 0.0001, z: 0.74754286}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/Head_M_spare/Tongue0_M/Tongue1_M/Tongue2_M/Tongue3_M/Tongue4_M
+        weight: {x: 0.16453235, y: 0.0001, z: 0.7528006}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Neck_M/NeckPart1_M/Head_M/HeadEnd_M
+        weight: {x: 0.16453235, y: 0.0001, z: 0.78554314}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L
+        weight: {x: 0.14842506, y: 0.0001, z: 0.6598689}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L
+        weight: {x: 0.098565124, y: 0.0001, z: 0.70748276}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L
+        weight: {x: 0.118354164, y: 0.0001, z: 0.7483728}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L
+        weight: {x: 0.09452913, y: 0.0001, z: 0.7892629}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L
+        weight: {x: 0.075501606, y: 0.0001, z: 0.8301529}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L
+        weight: {x: 0.091511324, y: 0.0001, z: 0.86297524}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L
+        weight: {x: 0.07794501, y: 0.0001, z: 0.89579755}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L
+        weight: {x: 0.036372375, y: 0.0001, z: 0.92861986}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/HPoint_hand_L
+        weight: {x: 0.036372375, y: 0.0001, z: 0.9523171}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/IndexFinger0_L
+        weight: {x: 0.046955854, y: 0.0001, z: 0.94058985}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/IndexFinger0_L/IndexFinger1_L
+        weight: {x: 0.03948878, y: 0.0001, z: 0.9606379}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/IndexFinger0_L/IndexFinger1_L/IndexFinger2_L
+        weight: {x: 0.025647204, y: 0.0001, z: 0.97840685}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/IndexFinger0_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: {x: 0.0202948, y: 0.0001, z: 0.98971534}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/IndexFinger0_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L/IndexFinger4_L
+        weight: {x: 0.0202948, y: 0.0001, z: 0.9993298}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/MiddleFinger0_L
+        weight: {x: 0.04798259, y: 0.0001, z: 0.93851984}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/MiddleFinger0_L/MiddleFinger1_L
+        weight: {x: 0.042559538, y: 0.0001, z: 0.9599427}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/MiddleFinger0_L/MiddleFinger1_L/MiddleFinger2_L
+        weight: {x: 0.025294192, y: 0.0001, z: 0.97931683}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/MiddleFinger0_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: {x: 0.0234887, y: 0.0001, z: 0.9904232}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/MiddleFinger0_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: {x: 0.0234887, y: 0.0001, z: 0.99999946}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/PinkyFinger0_L
+        weight: {x: 0.043048274, y: 0.0001, z: 0.9413339}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/PinkyFinger0_L/PinkyFinger1_L
+        weight: {x: 0.030426448, y: 0.0001, z: 0.9601352}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/PinkyFinger0_L/PinkyFinger1_L/PinkyFinger2_L
+        weight: {x: 0.018008098, y: 0.0001, z: 0.9739418}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/PinkyFinger0_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L
+        weight: {x: 0.01770583, y: 0.0001, z: 0.9826373}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/PinkyFinger0_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: {x: 0.01770583, y: 0.0001, z: 0.99038976}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/RingFinger0_L
+        weight: {x: 0.04702199, y: 0.0001, z: 0.9393599}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/RingFinger0_L/RingFinger1_L
+        weight: {x: 0.038140398, y: 0.0001, z: 0.960301}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/RingFinger0_L/RingFinger1_L/RingFinger2_L
+        weight: {x: 0.025136871, y: 0.0001, z: 0.97765166}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/RingFinger0_L/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: {x: 0.02161692, y: 0.0001, z: 0.98890746}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/RingFinger0_L/RingFinger1_L/RingFinger2_L/RingFinger3_L/RingFinger4_L
+        weight: {x: 0.02161692, y: 0.0001, z: 0.99834186}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/ThumbFinger1_L
+        weight: {x: 0.041922364, y: 0.0001, z: 0.9403908}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L
+        weight: {x: 0.026149092, y: 0.0001, z: 0.9576914}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L
+        weight: {x: 0.025923751, y: 0.0001, z: 0.96955}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/ElbowPart1_L/ElbowPart2_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: {x: 0.025923751, y: 0.0001, z: 0.9809219}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R
+        weight: {x: 0.14651185, y: 0.0001, z: 0.6598689}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R
+        weight: {x: 0.097424865, y: 0.0001, z: 0.70748276}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R
+        weight: {x: 0.118819445, y: 0.0001, z: 0.74837285}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R
+        weight: {x: 0.11081634, y: 0.0001, z: 0.78926295}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R
+        weight: {x: 0.08604192, y: 0.0001, z: 0.83015305}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R
+        weight: {x: 0.090510294, y: 0.0001, z: 0.86297536}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R
+        weight: {x: 0.07794474, y: 0.0001, z: 0.8957977}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R
+        weight: {x: 0.036372658, y: 0.0001, z: 0.92862004}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/HPoint_hand_R
+        weight: {x: 0.036372658, y: 0.0001, z: 0.95231724}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/IndexFinger0_R
+        weight: {x: 0.046955686, y: 0.0001, z: 0.94058996}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/IndexFinger0_R/IndexFinger1_R
+        weight: {x: 0.039487734, y: 0.0001, z: 0.9606386}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/IndexFinger0_R/IndexFinger1_R/IndexFinger2_R
+        weight: {x: 0.025646167, y: 0.0001, z: 0.97840756}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/IndexFinger0_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: {x: 0.020293253, y: 0.0001, z: 0.9897159}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/IndexFinger0_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R/IndexFinger4_R
+        weight: {x: 0.020293253, y: 0.0001, z: 0.9993304}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/MiddleFinger0_R
+        weight: {x: 0.047982626, y: 0.0001, z: 0.9385199}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/MiddleFinger0_R/MiddleFinger1_R
+        weight: {x: 0.0425601, y: 0.0001, z: 0.95994323}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/MiddleFinger0_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: {x: 0.025294801, y: 0.0001, z: 0.97931737}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/MiddleFinger0_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: {x: 0.023487905, y: 0.0001, z: 0.99042374}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/MiddleFinger0_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: {x: 0.023487905, y: 0.0001, z: 1}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/PinkyFinger0_R
+        weight: {x: 0.043048494, y: 0.0001, z: 0.9413341}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/PinkyFinger0_R/PinkyFinger1_R
+        weight: {x: 0.030428534, y: 0.0001, z: 0.9601352}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/PinkyFinger0_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: {x: 0.018011555, y: 0.0001, z: 0.9739418}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/PinkyFinger0_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: {x: 0.017707225, y: 0.0001, z: 0.9826373}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/PinkyFinger0_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: {x: 0.017707225, y: 0.0001, z: 0.99038976}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/RingFinger0_R
+        weight: {x: 0.04702198, y: 0.0001, z: 0.93936}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/RingFinger0_R/RingFinger1_R
+        weight: {x: 0.038142025, y: 0.0001, z: 0.9603012}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/RingFinger0_R/RingFinger1_R/RingFinger2_R
+        weight: {x: 0.02513789, y: 0.0001, z: 0.9776519}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/RingFinger0_R/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: {x: 0.021617407, y: 0.0001, z: 0.9889077}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/RingFinger0_R/RingFinger1_R/RingFinger2_R/RingFinger3_R/RingFinger4_R
+        weight: {x: 0.021617407, y: 0.0001, z: 0.9983421}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/ThumbFinger1_R
+        weight: {x: 0.041920133, y: 0.0001, z: 0.9403908}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: {x: 0.026147608, y: 0.0001, z: 0.9576914}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: {x: 0.025921816, y: 0.0001, z: 0.96955}
+      - path: Roots/Root_M/Spine1_M/Spine2_M/Spine3_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: {x: 0.025921816, y: 0.0001, z: 0.98092204}
+      - path: Roots/RootMotion
+        weight: {x: 0.12345, y: 0.0001, z: 0}
+      - path: AclDefaultCompress
+        weight: {x: 1, y: 3, z: 0.12345}
+      - path: AclBoneAutoSetDefaults
+        weight: {x: 0.12345, y: 0.0001, z: 0.0001}
+      - path: AclConstantCurveThreshold
+        weight: {x: 0.0028471446, y: 0.00001, z: 0.00001}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

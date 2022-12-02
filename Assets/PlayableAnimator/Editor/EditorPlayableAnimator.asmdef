@@ -1,0 +1,16 @@
+{
+    "name": "EditorPlayableAnimator",
+    "rootNamespace": "",
+    "references": [
+        "GUID:aa71b2f7280ebf94083e3cbe60d955c8"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

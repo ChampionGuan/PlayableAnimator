@@ -1,0 +1,427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ea465ce18b52c43ac4fb0aadcebada, type: 3}
+  m_Name: TestRM
+  m_EditorClassIdentifier: 
+  m_UnityInsID: 34764
+  m_PlayableInsID: 34790
+  m_Layers:
+  - m_Name: Base Layer
+    m_DefaultSpeed: 1
+    m_DefaultWeight: 1
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_SyncedLayerIndex: -1
+    m_DefaultStateName: Idle 1
+    m_AvatarMask: {fileID: 0}
+    m_BlendingType: 0
+    m_States:
+    - m_Position: {x: -40, y: 410}
+      m_Name: Idle
+      m_Tag: 
+      m_Transitions:
+      - m_Type: 0
+        m_Solo: 0
+        m_Mute: 0
+        m_HasExitTime: 0
+        m_HasFixedDuration: 1
+        m_Offset: 0
+        m_Duration: 3.0724769
+        m_ExitTime: 0.6586133
+        m_DestinationStateName: sword
+        m_InterruptionSource: 0
+        m_OrderedInterruption: 1
+        m_Conditions:
+        - m_Type: 3
+          m_ParameterName: test22
+          m_Threshold: 50
+      - m_Type: 0
+        m_Solo: 0
+        m_Mute: 0
+        m_HasExitTime: 0
+        m_HasFixedDuration: 1
+        m_Offset: 0
+        m_Duration: 6
+        m_ExitTime: 0.60707986
+        m_DestinationStateName: Atk01
+        m_InterruptionSource: 3
+        m_OrderedInterruption: 1
+        m_Conditions:
+        - m_Type: 3
+          m_ParameterName: test
+          m_Threshold: 50
+      m_HashID: -1835428864
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: -1807718146014606409, guid: af3e905e4e551cf40b538a61e8ed0308,
+          type: 3}
+    - m_Position: {x: -160, y: 640}
+      m_Name: Atk01
+      m_Tag: 
+      m_Transitions:
+      - m_Type: 0
+        m_Solo: 0
+        m_Mute: 0
+        m_HasExitTime: 1
+        m_HasFixedDuration: 1
+        m_Offset: 0
+        m_Duration: 0.25
+        m_ExitTime: 0.75
+        m_DestinationStateName: Idle
+        m_InterruptionSource: 0
+        m_OrderedInterruption: 1
+        m_Conditions:
+        - m_Type: 4
+          m_ParameterName: test
+          m_Threshold: 50
+      - m_Type: 0
+        m_Solo: 0
+        m_Mute: 0
+        m_HasExitTime: 0
+        m_HasFixedDuration: 1
+        m_Offset: 0
+        m_Duration: 1.0922256
+        m_ExitTime: 0.33341533
+        m_DestinationStateName: Atk02
+        m_InterruptionSource: 3
+        m_OrderedInterruption: 1
+        m_Conditions:
+        - m_Type: 3
+          m_ParameterName: test
+          m_Threshold: 100
+      m_HashID: 239451392
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 8348945603871586694, guid: 24a3931434333af4982a10ba9d55881c,
+          type: 3}
+    - m_Position: {x: 350, y: 590}
+      m_Name: sword
+      m_Tag: 
+      m_Transitions:
+      - m_Type: 0
+        m_Solo: 0
+        m_Mute: 0
+        m_HasExitTime: 0
+        m_HasFixedDuration: 1
+        m_Offset: 0
+        m_Duration: 0.25
+        m_ExitTime: 0.8557693
+        m_DestinationStateName: Idle
+        m_InterruptionSource: 4
+        m_OrderedInterruption: 1
+        m_Conditions:
+        - m_Type: 4
+          m_ParameterName: test22
+          m_Threshold: 50
+      m_HashID: -1980635648
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 1827226128182048838, guid: 8b1bd6a33e08598468625cf5a446d121,
+          type: 3}
+    - m_Position: {x: 10, y: 850}
+      m_Name: Atk02
+      m_Tag: 
+      m_Transitions:
+      - m_Type: 0
+        m_Solo: 0
+        m_Mute: 0
+        m_HasExitTime: 0
+        m_HasFixedDuration: 1
+        m_Offset: 0
+        m_Duration: 5.326828
+        m_ExitTime: 0.8557693
+        m_DestinationStateName: Idle
+        m_InterruptionSource: 0
+        m_OrderedInterruption: 1
+        m_Conditions:
+        - m_Type: 3
+          m_ParameterName: test
+          m_Threshold: 150
+      m_HashID: 94244608
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 0}
+    - m_Position: {x: 330, y: 810}
+      m_Name: sword 0 0
+      m_Tag: 
+      m_Transitions: []
+      m_HashID: -2125842432
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 1827226128182048838, guid: 8b1bd6a33e08598468625cf5a446d121,
+          type: 3}
+    - m_Position: {x: 0, y: 0}
+      m_Name: Atk01 0
+      m_Tag: 
+      m_Transitions: []
+      m_HashID: -50962176
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 8348945603871586694, guid: 24a3931434333af4982a10ba9d55881c,
+          type: 3}
+    - m_Position: {x: 0, y: 0}
+      m_Name: Atk01 1
+      m_Tag: 
+      m_Transitions: []
+      m_HashID: 2023918080
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 8348945603871586694, guid: 24a3931434333af4982a10ba9d55881c,
+          type: 3}
+    - m_Position: {x: -410, y: 720}
+      m_Name: Atk01 2
+      m_Tag: 
+      m_Transitions: []
+      m_HashID: -196168960
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 8348945603871586694, guid: 24a3931434333af4982a10ba9d55881c,
+          type: 3}
+    - m_Position: {x: 0, y: 0}
+      m_Name: Idle 0
+      m_Tag: 
+      m_Transitions: []
+      m_HashID: 1878711296
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: -1807718146014606409, guid: af3e905e4e551cf40b538a61e8ed0308,
+          type: 3}
+    - m_Position: {x: -510, y: 550}
+      m_Name: Idle 1
+      m_Tag: 
+      m_Transitions:
+      - m_Type: 0
+        m_Solo: 0
+        m_Mute: 0
+        m_HasExitTime: 1
+        m_HasFixedDuration: 1
+        m_Offset: 0
+        m_Duration: 1.5091391
+        m_ExitTime: 0.89516044
+        m_DestinationStateName: Atk01 2
+        m_InterruptionSource: 0
+        m_OrderedInterruption: 1
+        m_Conditions:
+        - m_Type: 3
+          m_ParameterName: test
+          m_Threshold: 50
+      m_HashID: -341375744
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: -1807718146014606409, guid: af3e905e4e551cf40b538a61e8ed0308,
+          type: 3}
+    - m_Position: {x: -966.51697, y: 591.9059}
+      m_Name: RunStart
+      m_Tag: 
+      m_Transitions:
+      - m_Type: 0
+        m_Solo: 0
+        m_Mute: 0
+        m_HasExitTime: 1
+        m_HasFixedDuration: 1
+        m_Offset: 0
+        m_Duration: 0.25
+        m_ExitTime: 0.75
+        m_DestinationStateName: Run
+        m_InterruptionSource: 0
+        m_OrderedInterruption: 1
+        m_Conditions: []
+      m_HashID: 1733504512
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: -5686046195419847464, guid: 92b148cf07a649344b3ee4c1b91a4421,
+          type: 3}
+    - m_Position: {x: 0, y: 0}
+      m_Name: RunStart 0
+      m_Tag: 
+      m_Transitions: []
+      m_HashID: -486582528
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 0}
+    - m_Position: {x: -840, y: 800}
+      m_Name: Run
+      m_Tag: 
+      m_Transitions: []
+      m_HashID: 1588297728
+      m_DefaultSpeed: 1
+      m_SpeedParameterName: 
+      m_SpeedParameterActive: 0
+      m_FootIK: 0
+      m_WriteDefaultValues: 1
+      m_MotionType: 0
+      m_BlendTree:
+        m_MinThreshold: 0
+        m_MaxThreshold: 0
+        m_BlendParameterName: 
+        m_BlendType: 0
+        m_UseAutomaticThresholds: 0
+        m_ChildMotions: []
+      m_ClipMotion:
+        m_Clip: {fileID: 4406104350984959394, guid: 621449d9b13c9b74c9991860158c4f1e,
+          type: 3}
+    m_Groups: []
+  m_Parameters:
+  - m_Name: test
+    m_Type: 1
+    m_DefaultInt: 0
+    m_DefaultFloat: 0
+    m_DefaultBool: 0
+  - m_Name: test22
+    m_Type: 1
+    m_DefaultInt: 0
+    m_DefaultFloat: 0
+    m_DefaultBool: 0
